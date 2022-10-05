@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.sectiontexttwo{
+    font-family: 'Poppins', sans-serif !important;    
+}
+.textcenter{
+    text-align: center;
+    padding: 30px;
+}
+.headings2{
+    font-size: 24px;
+    margin: 0;
+}
+p.paras2 {
+    margin: 5px;
+}
+
+.sectiontwoleft{
+    float: left;
+    width: 38%;
+    text-align: right;
+    background-position: calc(100% - 20px) center;
+}
+.texth5 {
+    margin: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.textdivleft {
+    position: relative;
+    padding: 20px 110px 20px 30px;
+    margin-bottom: 23px;
+}
+span.caf1img {
+    background-color: #d4e4fd;
+    background-image: url(./Images/caf1.svg);
+}
+span.caf2img {
+    background-color: #bef3e3;
+    background-image: url(./Images/caf2.svg);
+}
+span.caf3img {
+    background-color: #fff1ce;
+    background-image: url(./Images/caf3.svg);
+}
+span.caf4img {
+    background-color: #efdbff;
+    background-image: url(./Images/caf4.svg);
+}
+span.caf5img {
+    background-color: #b1ebff;
+    background-image: url(./Images/caf5.svg);
+}
+.sectiontworight {
+    width: 38%;
+    float: right;
+}
+img.flyrobo {
+    width: 100%;
+    margin: 262px auto;
+    animation: shakeY;
+    margin-left: 40px;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+.imagerobo {
+    width: 19%;
+    display: inline-block;
+}
+span.lefticons1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: center center;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+}
+span.righticons1{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 40px auto;
+    background-position: center center;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+}
+.textdivright{
+    position: relative;
+    padding: 20px 20px 20px 110px;
+    margin-bottom: 23px;
+}
+span.cafright1 {
+    background-color: #fbd3d3;
+    background-image: url(./Images/cafright1.svg);
+}
+span.cafright2 {
+    background-color: #e1e4ff;
+    background-image: url(./Images/cafright2.svg);
+}
+span.cafright3 {
+    background-color: #ffd9ee;
+    background-image: url(./Images/cafright3.svg);
+}
+span.cafright4 {
+    background-color: #fff3b7;
+    background-image: url(./Images/cafright9.svg);
+}
+span.cafright5 {
+    background-color: #cee9d6;
+    background-image: url(./Images/cafright10.svg);
+}
+
+
+
+
+@media only screen and (max-width: 1115px){
+    img.flyrobo {
+        display: none;
+    }
+    .sectiontworight {
+        width: 45%;
+    }
+    .sectiontwoleft{
+        width: 45%;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+.sectiontwoleft {
+        width: 48%;
+}
+.sectiontworight {
+    width: 48%;
+}
+}
+@media only screen and (max-width: 768px){
+.sectiontexttwo {
+        padding: 25px;
+        font-family: 'Poppins', sans-serif !important;
+}
+.sectiontwoleft {
+    width: 100%;
+    text-align: left;
+}
+.textdivleft {
+    padding: 20px 0px 20px 110px;
+    margin-bottom: 0;
+}
+span.lefticons1 {
+    left: 0;
+}
+.sectiontworight {
+    width: 100%;
+}
+.textdivright {
+   margin-bottom: 0;
+}
+}
